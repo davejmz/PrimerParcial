@@ -1,6 +1,6 @@
 # Proyecto de Algoritmos de Ordenamiento en Java
 
-Tarea para el Primer Parcial - Universidad
+Tarea para el Primer Parcial - Universidad Da Vinci de Guatemala
 
 Este proyecto está desarrollado en **Java** e implementa diversos **algoritmos de ordenamiento**, tales como:
 
