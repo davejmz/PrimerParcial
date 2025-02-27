@@ -12,6 +12,7 @@ public class Parcial1_Ordenamiento {
         System.out.println("========================================");
     }
 
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         mostrarInformacion();
 
