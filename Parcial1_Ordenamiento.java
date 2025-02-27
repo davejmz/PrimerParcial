@@ -9,6 +9,13 @@ public class Parcial1_Ordenamiento {
         // Cargar los datos desde el archivo CSV
         int[] datos = DataEntryCSV.loadData(archivo);
 
+        // Mostrar el arreglo original
+        System.out.println("Arreglo original:");
+        for (int num : datos) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
+
         // Menú para seleccionar el algoritmo de ordenamiento
         System.out.println("Seleccione el algoritmo de ordenamiento:");
         System.out.println("1. Bubble Sort");
@@ -38,6 +45,13 @@ public class Parcial1_Ordenamiento {
                 System.out.println("Opción no válida.");
                 return;
         }
+
+        // Mostrar el arreglo ordenado
+        System.out.println("Arreglo ordenado:");
+        for (int num : datos) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
 
         // Búsqueda binaria
         System.out.println("Ingrese el número a buscar:");
