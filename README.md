@@ -5,6 +5,7 @@ Tarea para el Primer Parcial - Universidad Da Vinci de Guatemala
 Este proyecto está desarrollado en **Java** e implementa diversos **algoritmos de ordenamiento**, tales como:
 
 - 📊 **Bubble Sort**
+- 🔄 **Bubble Sort 2 (Optimizado)**
 - 🚀 **Quick Sort**
 - 📦 **Merge Sort**
 - 📈 **Selection Sort**
@@ -24,18 +25,20 @@ git clone git@github.com:davejmz/PrimerParcial.git
 ```
 
 ### 2. Compilar el código
-Abre una terminal en la raíz del proyecto y ejecuta el siguiente comando:
+Abre una terminal en la carpeta **SortingProject** y ejecuta el siguiente comando:
 
 ```bash
-javac -d bin src/*.java
+javac *.java
 ```
 
-Esto asegurará que los archivos **`.class`** se generen correctamente sin errores de compilación.
+Esto compilará todos los archivos **.java** en la carpeta **SortingProject**.
 
-### 3. Ejecutar el programa
+### 3. Ejecutar el programa principal
+
+El programa principal a ejecutar es **Parcial1_Ordenamiento.java**, usa el siguiente comando:
 
 ```bash
-java -cp bin Main
+java Parcial1_Ordenamiento
 ```
 
 ---
@@ -43,8 +46,16 @@ java -cp bin Main
 ## 📋 Requisitos
 
 - Tener instalada la **JDK 8** o superior.
-- Un archivo **datos.csv** en la carpeta **`src/Datos`**.
-- Se incluye un archivo de ejemplo **datos.csv** para pruebas.
+- Un archivo **Numeros.csv** en la carpeta **Numeros**.
+- Se incluye un archivo de ejemplo **Numeros.csv** para pruebas.
+
+Al ejecutar el programa, se debe ingresar el nombre del archivo **CSV** de la siguiente manera (en **negrita**):
+
+```plaintext
+**../Numeros/Numeros.csv**
+```
+
+También puedes usar otros nombres de archivos **CSV** si los has colocado en la carpeta **Numeros**.
 
 ---
 
@@ -52,12 +63,17 @@ java -cp bin Main
 
 ```
 PrimerParcial/
-├─ bin/
-├─ src/
-│   ├─ Datos/
-│   │   └─ datos.csv
-│   ├─ Main.java
-│   └─ AlgoritmoOrdenamiento.java
+├─ Numeros/
+│   └─ Numeros.csv
+├─ SortingProject/
+│   ├─ BinarySearch.java
+│   ├─ BubbleSort.java
+│   ├─ BubbleSort2.java
+│   ├─ DataEntryCSV.java
+│   ├─ MergeSort.java
+│   ├─ Parcial1_Ordenamiento.java
+│   ├─ QuickSort.java
+│   └─ SelectionSort.java
 └─ README.md
 ```
 
