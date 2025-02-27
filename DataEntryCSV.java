@@ -12,11 +12,10 @@ public class DataEntryCSV {
             String line;
             while ((line = br.readLine()) != null) {
                 if (!line.isEmpty()) {
-                    dataList.add(Integer.parseInt(line.trim()));
+                    dataList.add(Integer.valueOf(line.trim()));
                 }
             }
         } catch (IOException e) {
-            e.printStackTrace();
         }
         return dataList.stream().mapToInt(Integer::intValue).toArray();
     }
