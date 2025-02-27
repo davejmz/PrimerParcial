@@ -18,8 +18,7 @@ public class Parcial1_Ordenamiento {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese el nombre del archivo CSV (incluyendo la extensión):");
-        String archivo = "Numeros/" + scanner.nextLine();
-
+        String archivo = scanner.nextLine();
 
         // Cargar los datos desde el archivo CSV
         int[] datos = DataEntryCSV.loadData(archivo);
