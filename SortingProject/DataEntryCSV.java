@@ -1,4 +1,4 @@
-// DataEntryCSV.java
+//DataEntryCSV.java
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -16,6 +16,7 @@ public class DataEntryCSV {
                 }
             }
         } catch (IOException e) {
+            System.out.println("Error al leer el archivo: " + e.getMessage());
         }
         return dataList.stream().mapToInt(Integer::intValue).toArray();
     }

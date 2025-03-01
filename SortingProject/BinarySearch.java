@@ -1,16 +1,16 @@
-// BinarySearch.java
+//BinarySearch.java
 public class BinarySearch {
-    public static int search(int[] sortedArr, int key) {
-        int low = 0;
-        int high = sortedArr.length - 1;
-        while (low <= high) {
-            int mid = (low + high) / 2;
-            if (sortedArr[mid] == key) {
+    public static int search(int[] arr, int clave) {
+        int left = 0, right = arr.length - 1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (arr[mid] == clave) {
                 return mid;
-            } else if (sortedArr[mid] < key) {
-                low = mid + 1;
+            }
+            if (arr[mid] < clave) {
+                left = mid + 1;
             } else {
-                high = mid - 1;
+                right = mid - 1;
             }
         }
         return -1;

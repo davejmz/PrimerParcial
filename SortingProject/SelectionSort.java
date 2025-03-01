@@ -1,4 +1,4 @@
-// SelectionSort.java
+//SelectionSort.java
 public class SelectionSort {
     public static void sort(int[] arr) {
         int n = arr.length;

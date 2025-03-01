@@ -1,4 +1,4 @@
-// QuickSort.java
+//QuickSort.java
 public class QuickSort {
     public static void sort(int[] arr, int low, int high) {
         if (low < high) {

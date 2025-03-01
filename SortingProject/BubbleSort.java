@@ -1,4 +1,4 @@
-// BubbleSort.java
+//BubbleSort.java
 public class BubbleSort {
     public static void sort(int[] arr) {
         int n = arr.length;

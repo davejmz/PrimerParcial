@@ -1,4 +1,4 @@
-// MergeSort.java
+//MergeSort.java
 public class MergeSort {
     public static void sort(int[] arr, int left, int right) {
         if (left < right) {
