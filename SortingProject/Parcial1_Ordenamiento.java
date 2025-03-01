@@ -30,12 +30,11 @@ public class Parcial1_Ordenamiento {
         puntosFaltantes.add("2. Menú Principal");
         puntosFaltantes.add("3. Carga de Datos desde un CSV");
         puntosFaltantes.add("4. Algoritmo de Ordenamiento - Bubble Sort");
-        puntosFaltantes.add("5. Algoritmo de Ordenamiento - Enhanced Bubble Sort");
+        puntosFaltantes.add("5. Algoritmo de Ordenamiento - Bubble Sort 2 (Mejorado :D)");
         puntosFaltantes.add("6. Algoritmo de Ordenamiento - Quick Sort");
         puntosFaltantes.add("7. Algoritmo de Ordenamiento - Selection Sort");
         puntosFaltantes.add("8. Algoritmo de Ordenamiento - Merge Sort");
         puntosFaltantes.add("9. Algoritmo de Búsqueda - Binary Search");
-        puntosFaltantes.add("10. Presentación Final en YouTube");
 
         //Mostrar la información en consola
         System.out.println("\n========================================");
